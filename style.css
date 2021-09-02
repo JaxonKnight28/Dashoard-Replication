@@ -1,0 +1,189 @@
+body{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#dashboard {
+    display: flex;
+    margin-top: 60px;
+    width: 80%;
+    height: 800px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+#leftBar {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    padding: 20px;
+    justify-content: space-between;
+    border-right: 1px solid lightgray;
+}
+.top {
+    padding: 20px 0 0 0;
+    flex-grow: 1;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    align-items: flex-start;
+}
+
+.bottom {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-end;
+}
+
+.topBar {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+.welcome {
+    padding: 20px 0 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.welcome div {
+    margin-right: 30px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.menu div {
+    padding: 0 30px 0 30px;
+}
+
+.account {
+    border: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+}
+
+.content {
+    display: flex;
+}
+
+.rightSide, .leftSide {
+    display: flex;
+}
+
+.rightSide {
+    margin: 50px 40px 0px 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 10;
+    margin: 50px 40px 0px 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.creditCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 140px;
+    background-color: orange;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.ballance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 140px;
+    background-color: blue;
+    border-radius: 20px;
+}
+.font {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0 20px 0;
+}
+.summary {
+    display: flex;
+    justify-content: space-between;
+}
+.smallBox {
+    background-color: lightgray;
+    height: 140px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.status {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+
+.statusBars {
+    display: flex;
+    background-color: lightgray;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.purchases {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 100px;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+.return {
+    border-left: 1px black solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+.order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
